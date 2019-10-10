@@ -8,12 +8,12 @@
 
 <style>
     body{
-        background: grey;
+        background: #f2f3f3;
         
         font-family: Ubuntu;
     }
 #grey{
-    background: #f2f3f3;;
+    background: #f2f3f3;
     padding: 20px;
     width: auto;
     height: 550px;
@@ -28,13 +28,14 @@ span{
     height: 100px;
     border: 1px solid #e5e5e5;
     background: white;
+    width: auto;
     
 }
 button{
     padding: 20px;
     border: 1px solid black;
-    padding-right: 50px;
-    margin-left: 100px;
+    
+    
     margin-top: 40px;
     margin-right: 20px;
     border-radius: 10px;
@@ -44,6 +45,7 @@ button{
     background: #5ce1eb;
     float: right;
     color: white;
+    margin-left: 100px;
 }
 .log{
     float: right;
@@ -52,7 +54,7 @@ button{
     height: 80%;
     background: white;
 }
-.btn{
+#btn{
     background: #5ce1eb;
     
     margin-top: 40px;
@@ -67,7 +69,9 @@ button{
     font-size: 1.2em;
     display: inline-block;
 }
-
+ .est{
+    margin-left: 100px;
+ }
 
 @media screen and (max-width: 600px) {
   h1{
@@ -100,12 +104,12 @@ button{
 </head>
 
 <body>
-<section id = "grey"><div>Estimate New User- Oluwasanmi</div>
+<section id = "grey"><div style = "color: #9999" class = "pad">Estimate New User- Oluwasanmi</div>
     <section class= "container">
-<div id = "first"><span class = "pad shift">Estimates</span><span><button class = "sign btn">Signup</button><button class = "log btn">Login</button></span></div>
+<div id = "first"><span class = "pad shift">Estimates</span><span><button class = "sign btn">Signup</button><button class = "log btn" style = "background: #ffffff">Login</button></span></div>
 <div id = "second">
-    <button class="btn" style="color: white">Create Estimate</button>
-    <h2><p class = "pad">Estimate helps you place value to your work and time!</p></h2>
+    <button class="btn est" style="color: white; background: #5ce1eb">Create Estimate</button>
+    <h2><p class = "pad">Estimates helps you place value to your work and time!</p></h2>
     <p class = "pad"><h5 class = "pad">Create and estimate and easily convert it to your invoice and send to your client</h5></p>
 </div>
 </section>
